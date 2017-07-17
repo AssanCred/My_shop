@@ -1,19 +1,23 @@
 .logo {
   display: block;
-  position: relative;
-  background-image: url("../img/logo.png");
+  /* position: relative; */
+  background-image: url(../img/logo.png);
   width: 125px;
   height: 111px;
-  left: 69px;
-  top: 24px;
+  /* left: 69px; */
+  /* top: 24px; */
+  float: left;
+  margin: 23px 0 0 69px;
 }
 
 .h-anons {
-  position: absolute;
+  /* position: absolute; */
   background-color: #fff51f;
   width: 270px;
   height: 300px;
-  top: 336px;
+  /* top: 336px; */
+  float: left;
+  margin-top: 202px;
 }
 
 .h-anons h2 {
@@ -41,8 +45,9 @@
 
 .sprite-position {
   float: right;
-  margin-right: 58px;
-  margin-top: -66px;
+  /* margin-right: 58px; */
+  /* margin-top: -66px; */
+  margin: -88px 59px 0 0
 }
 
 .sprite {
@@ -53,7 +58,7 @@
 }
 
 .sprite-facebook {
-  width: 8px;
+  width: 10px;
   height: 16px;
   background-position: -12px -12px;
 }
@@ -71,24 +76,26 @@
 }
 
 .sprite-twitter {
-  width: 16px;
-  height: 14px;
+  width: 14px;
+      height: 15px;
   background-position: -122px -12px;
 }
 
 .sprite-youtube {
-  width: 16px;
+  width: 15px;
   height: 16px;
   background-position: -162px -12px;
 }
 
 .annotation {
-  position: absolute;
-  display: block;
-  width: 313px;
-  top: 243px;
+  /* position: absolute; */
+  /* display: block; */
+  width: 324px;
+  /* top: 243px; */
   height: 169px;
-  left: 747px;
+  /* left: 747px; */
+  float: right;
+  margin: 110px 99px 0 0;
 }
 
 .annotation h2 {
