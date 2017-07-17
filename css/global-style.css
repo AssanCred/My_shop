@@ -28,11 +28,10 @@ body {
   width: 1170px;
   margin: 0 auto;
   position: relative;
-  border: 1px solid black;
 }
 
 .container.top {
-  margin-top: -17px;
+  margin-top: -18px;
 }
 
 .global-part.header {
