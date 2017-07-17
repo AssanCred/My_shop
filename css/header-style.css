@@ -1,0 +1,133 @@
+.logo {
+  display: block;
+  position: relative;
+  background-image: url("../img/logo.png");
+  width: 125px;
+  height: 111px;
+  left: 69px;
+  top: 24px;
+}
+
+.h-anons {
+  position: absolute;
+  background-color: #fff51f;
+  width: 270px;
+  height: 300px;
+  top: 336px;
+}
+
+.h-anons h2 {
+  margin: 79px 0 0 25px;
+  text-transform: uppercase;
+  font-family: Raleway-SemiBold;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.h-anons p {
+  font-family: Raleway-SemiBold;
+  font-style: italic;
+  margin: 20px 20px 0 21px;
+  padding-right: 10px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: left;
+}
+
+.sprite-position {
+  float: right;
+  margin-right: 58px;
+  margin-top: -66px;
+}
+
+.sprite {
+  background-image: url("../img/soc.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 4.4px;
+}
+
+.sprite-facebook {
+  width: 8px;
+  height: 16px;
+  background-position: -12px -12px;
+}
+
+.sprite-insta {
+  width: 16px;
+  height: 16px;
+  background-position: -44px -12px;
+}
+
+.sprite-pinterest {
+  width: 14px;
+  height: 16px;
+  background-position: -84px -12px;
+}
+
+.sprite-twitter {
+  width: 16px;
+  height: 14px;
+  background-position: -122px -12px;
+}
+
+.sprite-youtube {
+  width: 16px;
+  height: 16px;
+  background-position: -162px -12px;
+}
+
+.annotation {
+  position: absolute;
+  display: block;
+  width: 313px;
+  top: 243px;
+  height: 169px;
+  left: 747px;
+}
+
+.annotation h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 34px;
+  margin: 0;
+  font-family: Raleway-SemiBold;
+  color: #fff51f;
+  text-align: left;
+}
+
+.annotation p {
+  font-family: Raleway-SemiBold;
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Raleway-SemiBold;
+  color: #fff51f;
+  text-align: left;
+}
+
+.button a {
+  position: absolute;
+  background-color: #fff51f;
+  width: 124px;
+  height: 49px;
+  left: 751px;
+  top: 473px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Raleway-SemiBold;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.button a:hover{
+  background-color: #fffcc4;
+}
