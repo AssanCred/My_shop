@@ -1,53 +1,107 @@
+.cat {
+  margin-top: 56px;
+  max-width: 260px;
+}
+
+.cat h2 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.cat a {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+}
+
+.cat a:hover {
+  text-decoration: underline;
+}
+
+.cat h2 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.cat a {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+}
 
 .cat {
-  margin-top: 52px;
-}
-
-.cat h2 {
-  font-family: Raleway-SemiBold;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: left;
-  margin-bottom: 24px;
-}
-
-.cat a {
-  font-family: Roboto-Bold;
-  color: #ffffff;
+  font-family: Roboto;
+  color: #f8f8f8;
   font-size: 12px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 12px;
   text-align: left;
-  display: block;
+}
+
+.cat input[type="email"] {
+  margin-top: 15px;
+  background-color: #fff51f;
+  width: 180px;
+  height: 30px;
+  border: none;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #000000;
+  width: 71px;
+  height: 30px;
+  color: white;
+  text-transform: uppercase;
+  border-style: none;
+}
+
+.edit h2, .contact div {
+  margin-bottom: 10px;
+}
+
+.contact div {
+  margin-top: 10px;
+}
+
+.contact span:first-child {
+  padding-right: 10px;
+}
+
+.edit a {
   text-decoration: none;
+  color: #faef03;
+  display: inline;
+}
+
+.subscribe {
+  margin-top: 10px;
+  margin: 1px 0 44px 0;
 }
 
 .cat a:hover {
   text-decoration: underline;
 }
 
-
-.cat h2 {
-  font-family: Raleway-SemiBold;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: left;
-  margin-bottom: 24px;
-}
-
-.cat a {
-  font-family: Roboto-Bold;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 18px;
-  text-align: left;
-  display: block;
-  text-decoration: none;
-}
-
-.cat a:hover {
-  text-decoration: underline;
+.bank {
+  display: flex;
+  justify-content: space-between;
 }

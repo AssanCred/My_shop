@@ -1,1 +1,26 @@
+.footer span {
+  font-family: Roboto;
+  color: #dad9d9;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 21.6px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  line-height: 47px;
+}
 
+.social i {
+  margin-left: 5px;
+  color: white;
+  font-size: 17px;
+  width: 17px;
+  text-align: center;
+}
+
+.social {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 47px;
+}
