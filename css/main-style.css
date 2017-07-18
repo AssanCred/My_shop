@@ -74,6 +74,11 @@
   position: inherit;
 }
 
+.two p {
+  float: left;
+  margin: 120px 28px 0 0;
+}
+
 .advert::before {
   content: '';
   position: absolute;
