@@ -1,16 +1,32 @@
 @font-face {
-  font-family: "Raleway-SemiBold";
-  src: url(../font/Raleway-SemiBold.ttf);
+    font-family: "Raleway";
+    src: url("../font/RalewayRegular.ttf");
+    font-weight: 400;
 }
-
 @font-face {
-  font-family: "Raleway-Light";
-  src: url(../font/Raleway-Light.ttf);
+    font-family: "Raleway";
+    src: url("../font/RalewayBold.ttf");
+    font-weight: 700;
 }
-
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url(../font/Roboto-Bold.ttf);
+    font-family: "Raleway";
+    src: url("../font/RalewayExtraBold.ttf");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/RobotoLight.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/RobotoMedium.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/RobotoBold.ttf");
+    font-weight: 900;
 }
 
 body {
@@ -47,7 +63,7 @@ body {
 
 .global-part.pre-footer {
   background-color: #373737;
-  height: 348px;
+  height: 300px;
 }
 
 .global-part.footer {
@@ -57,4 +73,9 @@ body {
 
 .clear {
   clear: both;
+}
+
+.fot{
+  display: flex;
+  justify-content: space-around;
 }
