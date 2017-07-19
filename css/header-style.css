@@ -81,12 +81,8 @@
 }
 
 .annotation {
-  /* position: absolute; */
-  /* display: block; */
   width: 324px;
-  /* top: 243px; */
   height: 169px;
-  /* left: 747px; */
   float: right;
   margin: 110px 99px 0 0;
 }
@@ -122,6 +118,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: Raleway;
+  font-weight: 800;
   text-decoration: none;
   color: #000000;
   font-size: 14px;

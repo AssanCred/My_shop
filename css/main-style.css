@@ -6,6 +6,7 @@
 
 .menu {
   height: 475px;
+  margin-bottom: 30px;
 }
 
 .menu a:first-child {
@@ -52,7 +53,7 @@
   background-image: url(../img/get.jpg);
   width: 270px;
   height: 300px;
-  margin: 30px 0px 0px 0px;
+  margin-bottom: 30px;
   background-size: cover;
   position: relative;
   display: block;
@@ -88,6 +89,16 @@
   left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, .4);
+}
+
+.advert:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .top-prod, .sale-prod {
@@ -127,10 +138,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .fb {
   background-color: #3b5997;
+}
+
+ .fb::before, .tw::before, .pin::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(133, 33, 33, 0);
+}
+
+.fb:hover::before, .tw:hover::before, .pin:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .tw {
@@ -230,7 +262,7 @@
   font-size: 14px;
   position: absolute;
   top: 266px;
-right: 10px;
+  right: 10px;
   text-decoration: line-through;
   font-style: italic;
 }

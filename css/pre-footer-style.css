@@ -59,19 +59,28 @@
 .cat input[type="email"] {
   margin-top: 15px;
   background-color: #fff51f;
-  width: 180px;
+  width: 160px;
   height: 30px;
   border: none;
-  text-transform: uppercase;
+  padding: 0 10px 0px 10px;
+}
+
+.cat input::-webkit-input-placeholder {
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 button {
   background-color: #000000;
   width: 71px;
-  height: 30px;
+  height: 34px;
   color: white;
   text-transform: uppercase;
   border-style: none;
+  cursor: pointer;
+  position: relative;
 }
 
 .edit h2, .contact div {
